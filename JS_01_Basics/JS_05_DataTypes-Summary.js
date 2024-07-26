@@ -34,13 +34,42 @@ let myObj = {
 
 const myFunction= function(){
 
-    console.log("Hello world");
+   // console.log("Hello world");
 }
 
-console.log(typeof heors);// Arrays's typeof value Object
-console.log(typeof myObj);// Object's typeof value Object
-console.log(typeof bigNumber);// bigint type of value bigint
-console.log(typeof score);// number typeof value number
-console.log(typeof myFunction); // function typeof value object function
-console.log(typeof null);// null typeof value object
-console.log(typeof undefined);// undefined typeof value undefinedSSSS
+// console.log(typeof heors);// Arrays's typeof value Object
+// console.log(typeof myObj);// Object's typeof value Object
+// console.log(typeof bigNumber);// bigint type of value bigint
+// console.log(typeof score);// number typeof value number
+// console.log(typeof myFunction); // function typeof value object function
+// console.log(typeof null);// null typeof value object
+// console.log(typeof undefined);// undefined typeof value undefinedSSSS
+
+
+
+// =====================================================================
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myYouTubeName= "YunusRB";
+
+let anotherName = myYouTubeName;
+anotherName="letsstartnewbeg";
+
+console.log(myYouTubeName);
+console.log(anotherName);
+
+let user = {
+
+    email: "user@google.com",
+    upi: "user@ybl"
+
+}
+
+let userTwo =user;
+
+userTwo.email= "khaja@google.com";
+
+console.log(user.email);
+console.log(userTwo.email);
+
